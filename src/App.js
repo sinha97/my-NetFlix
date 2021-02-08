@@ -1,12 +1,29 @@
 import React from 'react';
 import './App.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
 import HomeScreen from './components/HomeScreen/HomeScreen';
+import Login from './components/Login/Login';
 
 
 function App() {
+  const user = null;
   return (
     <div className="app">
-      <HomeScreen />
+      <Router>
+        {!user ? (
+          <Login />
+        ) : (
+          <Switch>
+          <Route exact path="/">
+            <HomeScreen />
+          </Route>
+        </Switch>
+        )}
+      </Router>
     </div>
   );
 }
