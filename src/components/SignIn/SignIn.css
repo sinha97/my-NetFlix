@@ -1,6 +1,6 @@
 .singupScreen{
     max-width: 300px;
-    padding: 70px;
+    padding: 50px;
     margin-left: auto;
     margin-right: auto;
     background: rgba(0,0,0,0.85);
@@ -37,7 +37,7 @@ color: gray;
 .singupScreen > form > button{
     padding: 16px 20px;
     font-size: 1rem;
-    color: white;
+    color: #fff;
     border-radius: 5px;
     background-color: #e50914;
     font-weight: 600;

@@ -1,7 +1,7 @@
 .loginScreen{
     position: relative;
     height: 100%;
-    background: url("https://www.nme.com/wp-content/uploads/2020/07/Netflix-and-chill.jpg") center no-repeat;
+    background: url("https://cdn.hipwallpaper.com/i/59/42/V07nxH.jpg") center no-repeat;
     background-size: cover;
 }
 
@@ -46,7 +46,7 @@
     margin-right: auto;
     text-align: center;
     z-index: 1;
-    color: white;
+    color: #fff;
     padding: 20px;
     left: 0;
     right: 0;
@@ -84,7 +84,7 @@
 .loginScreen__getStarted{
     padding: 16px 20px;
     font-size: 1rem;
-    color: white;
+    color: #fff;
     background-color: #e50914;
     border: none;
     font-weight: 600;
